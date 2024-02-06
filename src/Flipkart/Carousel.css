@@ -1,0 +1,11 @@
+
+.slider-image{
+    display: flex;
+    left: 0;
+    margin: 0px 100%;
+    
+}
+.sampleprevarrow{
+    position: absolute;
+    left: 0;
+}

@@ -1,0 +1,85 @@
+.header{
+    background-color: rgb(241, 241, 246);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.header_first{
+    width: 80px;
+}
+.header_second{
+    display: flex;
+    align-items: center;
+     background-color:rgb(221, 223, 223); 
+        margin-left: 76px;  
+}
+.header_second > input{
+    border: none;
+    outline: none;
+    background-color:rgb(221, 223, 223) ; 
+    width: 35vw ;
+    padding: 10px 10px;
+    font-family: Arial, sans-serif;
+    font-size: 1.3rem;
+
+}
+.header_second , SearchIcon {
+    padding:0px  12px;
+    border-radius: 0.5rem;
+}
+.header_third{ 
+    display: flex;
+    align-items: center;    
+}
+
+.header_third > image{
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    
+    }
+.header_third > span{
+    border: none;
+    outline: none;
+        font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 7px;
+    
+}
+
+.header_fourth {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.header_fourth > p{
+    font-weight: 600;
+}
+
+.header_fifthy, .header_sixth{
+    display: flex;
+    align-items: center;
+}
+.Section{
+    width: 100%;
+    border: 10px solid lightgray ;
+    
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 17px;
+}
+.Col{
+    margin-left: 1rem;
+
+}
+.text{
+    display: flex;
+justify-content: space-around;
+}
+
+
+ 
